@@ -1,0 +1,22 @@
+{
+  "name": "myu_cors_cookie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -S -C cert.pem -K key.pem ./out",
+    "build": "node bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "GENTILHOMME Thomas <gentilhomme.thomas@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.13.0",
+    "http-server": "^13.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "dotenv": "^10.0.0"
+  }
+}
